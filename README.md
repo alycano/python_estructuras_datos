@@ -4,3 +4,8 @@ Para resolver este reto, utilicé una lista de listas para guardar mis productos
 
 --------------------------------------------------------------------------------------------------------------
 
+Reto 2 Sistema de peliculas
+
+Para resolver el segundo reto, construí un catálogo de películas utilizando una tupla de tuplas, ya que esta estructura me garantiza que los datos de las películas no se puedan modificar por accidente gracias a su propiedad de inmutabilidad. Al recorrer el catálogo, utilicé el desempaquetado básico en un ciclo for para extraer directamente el título, director, año y puntuación de cada película sin necesidad de usar índices. También implementé el operador * para separar la primera película del resto del catálogo de forma muy sencilla.
+
+En la búsqueda por director, creé una función que filtra las coincidencias comparando los nombres en minúsculas para evitar errores tipográficos, y convertí el resultado final de nuevo en una tupla para mantener la inmutabilidad de los datos retornados. Para las estadísticas, definí una función que extrae las puntuaciones y calcula el valor mínimo, máximo y el promedio, retornando estos tres datos en una sola tupla. Finalmente, desempaqueté este retorno en tres variables individuales para imprimirlas ordenadamente. Este ejercicio me ayudó a entender las ventajas de rendimiento y seguridad que ofrecen las tuplas cuando manejamos datos que deben permanecer fijos durante la ejecución del programa.
