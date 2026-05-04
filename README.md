@@ -28,3 +28,11 @@ En la segunda parte del ejercicio, gestioné las preferencias de géneros cinema
 
 ----------------------------------------------------------------------------------------------------------------
 
+Reto 5 Analizador de ventas con las 3 comprehensions
+
+Para resolver el quinto reto, utilicé las tres variantes de comprehensions para procesar un dataset de ventas de forma muy eficiente. Primero, mediante una comprensión de lista, calculé el valor total de cada venta multiplicando las unidades por el precio, y luego apliqué un filtro para extraer solo los nombres de los productos que superaron los mil dólares. Después, utilicé una comprensión de diccionario para crear un mapa estructurado de cada artículo junto con su información de ingresos y unidades; además, construí un ranking premium filtrando los artículos con precios mayores a cincuenta dólares y los ordené de mayor a menor.
+
+Asimismo, aproveché las propiedades de las comprensiones de conjunto para extraer de forma automática y sin duplicados las categorías únicas del negocio, así como el listado de productos más económicos. Finalmente, combiné las tres técnicas para generar un reporte resumido y obtuve el gran total de las ventas usando la función sum(). Este ejercicio me ayudó a entender cómo las comprehensions de Python reducen el código de manera elegante y optimizan el rendimiento de lectura y transformación de datos en comparación con los ciclos tradicionales.
+
+---------------------------------------------------------------------------------------------------------------
+
