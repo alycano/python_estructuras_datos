@@ -20,3 +20,11 @@ Finalmente, calculé el gran total sumando todos los ingresos regionales y utili
 
 ---------------------------------------------------------------------------------------------------------------
 
+Reto 4 Tiendas y recomendaciones de películas
+
+Para resolver este reto avanzado del módulo de conjuntos, dividí el desarrollo en dos secciones utilizando tanto los métodos de clase como los operadores matemáticos. En la primera parte, analicé el inventario de tres tiendas distintas mediante el uso de los métodos .union() y .intersection() para obtener el catálogo completo de la empresa y descubrir los productos comunes entre todas las sedes. Luego, utilicé .difference() en combinación con la unión de los otros inventarios para aislar los productos exclusivos de cada tienda, y verifiqué si había solapamientos entre la tienda Norte y Sur usando el método .isdisjoint().
+
+En la segunda parte del ejercicio, gestioné las preferencias de géneros cinematográficos de tres usuarios aplicando los operadores matemáticos de conjuntos. Empleé el operador & para encontrar los géneros compartidos por todos, el operador | para consolidar el universo total de categorías, el operador - para identificar los gustos únicos del primer usuario, y el operador ^ para calcular la diferencia simétrica entre los dos primeros perfiles. Por último, utilicé el operador <= para comprobar si los gustos de un usuario eran un subconjunto de los de otro. Esta práctica me ayudó a dominar la diferencia entre aplicar métodos tradicionales y utilizar operadores matemáticos abreviados para realizar análisis de datos precisos en Python.
+
+----------------------------------------------------------------------------------------------------------------
+
